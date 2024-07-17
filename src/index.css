@@ -6,8 +6,42 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  text-align: center;
+}
+.forms {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+}
+.input {
+  width: 65%;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.add {
+  width: 25%;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.todos {
+  width: 40%;
+  margin: auto;
+}
+.todo {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 10px 5px;
+  border-radius: 8px;
+  font-weight: 400;
+}
+.delete {
+  width: 80px;
+  height: 30px;
 }
